@@ -1,0 +1,46 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	/* font-size: 1.2em; */
+}
+
+.instagram {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	margin: auto;
+	margin-top: 7em;
+	width: 16em;
+	height: 16em;
+	border-radius: 20%;
+	background: radial-gradient(circle at bottom, #EFD882, #F47618, #D22A83, #3F64D2);
+}
+
+.instagram__camera {
+	border: 1.1em solid #ffffff;
+	border-radius: 30%;
+	width: 12.5em;
+	height: 12.5em;
+	padding: 1.9em;
+}
+
+.instagram__view {
+	background-color: #ffffff;
+	border-radius: 50%;
+	width: 1.4em;
+	height: 1.4em;
+	position: absolute;
+	margin-left: 5.5em;
+	top:0;
+	margin-top: 4em;
+}
+
+.instagram__lens {
+	border: 1.1em solid #ffffff;
+	border-radius: 50%;
+	width: 6.1em;
+	height: 6.1em;
+	padding: 1.9em;
+}
